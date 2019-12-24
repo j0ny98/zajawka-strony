@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kupuj i sprzedawaj: gry PC, oprogramowanie, karty podarunkowe na JPGames.pl</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+    <link rel="icon" href="./logo3.svg" type="image/x-icon">
+    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+
+        <nav class="navbar navbar-expand navbar-inverted nav-one" role="navigation">
+
+                <a class="navbar-brand" href="index.html">
+                  <img src="logo3.svg" class="d-inline-block align-top rozmiarl" alt="">
+                </a>
+
+         <div class="collapse navbar-collapse">
+
+              <div class="page-header">
+                <h2><small>JPGames</small></h2>
+              </div>
+                    <form class="form-inline  my-lg-0 mr-auto">
+                        <input class="form-control input-lg" id="ex4" type="search" placeholder="Szukaj..." aria-label="Search">
+                        <button class="btn my-2 my-lg-0 icon-search" type="submit"></button>
+                    </form>
+
+                    <div class="mr-auto" id="czas"></div>
+
+                <ul class="navbar-nav m-right link-nav">
+                    <li class="nav-item">
+                        <a class="nav-link icon-globe" href="https://www.g2a.com/pl-pl/" title="źródło"></a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link icon-wallet" href="./404.html" title="Portfel"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link icon-user" href="logowanie.html" title="Zaloguj"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link icon-basket" href="./404.html" title="Koszyk"></a>
+                  </li>
+                </ul>
+
+          </div>
+
+        </nav>
+
+    <div class="container-fluid mt-1">
+      <div class="row nav-one">
+
+        <div class="col">
+           <div class="btn-group">
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle a" data-toggle="dropdown">
+                  Gaming
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/games">Gry</a>
+                  <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/points-and-currencies">Punkty & Waluty z gier</a>
+                  <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/prepaids">Prepaidy</a>
+                  <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/subscriptions">Subskrypcje</a>
+                </div>
+              </div>
+
+              <div class="dropdown ">
+                  <button type="button" class="btn dropdown-toggle a" data-toggle="dropdown">
+                    Elektronika
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/cameras-and-photo-c481">Cameras & Photo</a>
+                    <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/cell-phones-and-accessories-c487">Cell Phones & Accessories</a>
+                    <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/computerstablets-and-networking-c523">Computers/Tablets & Networking</a>
+                    <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/consumer-electronics-c646">Consumer Electronics</a>
+                    <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/video-games-and-consoles-c784">Video Games & Consoles</a>
+                  </div>
+                </div>
+
+                <a href="https://www.g2a.com/pl-pl/category/gift-cards" class="btn a" role="button">Karty Podarunkowe</a>
+
+                  <div class="dropdown">
+                      <button type="button" class="btn dropdown-toggle a" data-toggle="dropdown">
+                        Oprogramowanie
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/software-antivirus-security">Oprogramowanie antywirusowe</a>
+                        <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/software-business-office">Oprogramowanie biurowe</a>
+                        <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/software-design-illustration">Oprogramowanie graficzne</a>
+                        <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/software-driver-utility">Sterowniki i narzędzia</a>
+                        <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/software-hobby-leisure">Hobby i wypoczynek</a>
+                        <a class="dropdown-item" href="https://www.g2a.com/en/best-offers/microsoft_sale">Microsoft dla biznesu</a>
+                        <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/software-web-desktop-publishing">DTP</a>
+                        <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/software-video-audio-editing">Obróbka audio i wideo</a>
+                        <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/software-other-computer-software">Inne oprogramowanie</a>
+                        <a class="dropdown-item" href="https://www.g2a.com/pl-pl/category/software-operating-systems">Operating Systems</a>
+                      </div>
+                    </div>
+
+              </div>
+        </div>
+      </div>
+
+
+        <div class="row ">
+
+            <div class="col-sm-2 col-lg-2">
+                <br><br><h2 class="c">Miejsce</h2><br><br>
+                <h2 class="c">na</h2><br><br>
+                <h2 class="c">twoją</h2><br><br>
+                <h2 class="c">reklamę</h2><br><br>
+
+                </div>
+
+
+            <div class="col-sm-8 col-lg-8">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="404.html"><img class="d-block w-100 foto mx-auto img-responsive" src="foto1.jpg" alt="First slide"></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="404.html"><img class="d-block w-100 foto mx-auto img-responsive" src="foto2.jpg" alt="Second slide"></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="404.html"><img class="d-block w-100 foto mx-auto img-responsive" src="foto3.jpg" alt="Third slide"></a>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+
+           <div class="col-sm-2 col-lg-2">
+            <br><br><h2 class="c">Miejsce</h2><br><br>
+            <h2 class="c">na</h2><br><br>
+            <h2 class="c">twoją</h2><br><br>
+            <h2 class="c">reklamę</h2><br><br>
+            </div>
+        </div>
+     </div>
+
+         <div class="row mt-3">
+           <div class="col">
+
+           </div>
+           <div class="col-8">
+                <h3><a href="404.html"  class="n">Najpopularniejsze produkty  ></a></h3>
+           </div>
+           <div class="col">
+
+           </div>
+         </div>
+
+     <div class="row">
+       <div class="col col-lg-2">
+            <br><br><h2 class="c">Miejsce</h2><br><br>
+            <h2 class="c">na</h2><br><br>
+            <h2 class="c">twoją</h2><br><br>
+            <h2 class="c">reklamę</h2><br><br>
+       </div>
+
+        <div class="col col-lg-2">
+         <a href="404.html" class="karty">
+          <div class="card card-inverse">
+              <img class="card-img-top" src="steam.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h6 class="card-title h">Random PREMIUM Steam Key GLOBAL 5 Keys</h6>
+                <br>
+                <p class="card-text p">Od</p>
+                <p class="card-text z"><b>21.34 PLN</b></p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col col-lg-2">
+          <a href="404.html">
+            <div class="card card-inverse">
+                <img class="card-img-top" src="gta.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title h">Grand Theft Auto V Rockstar Key GLOBAL</h6>
+                    <br>
+                    <p class="card-text p">Od</p>
+                    <p class="card-text z"><b>74.37 PLN</b></p>
+                </div>
+              </div>
+              </a>
+            </div>
+
+            <div class="col col-lg-2">
+              <a href="404.html">
+              <div class="card card-inverse">
+                  <img class="card-img-top" src="cs.jpg" alt="Card image cap">
+                  <div class="card-body">
+                      <h6 class="card-title h">Counter-Strike: Global Offensive Steam Key GLOBAL</h6>
+                      <br>
+                      <p class="card-text p">Od</p>
+                      <p class="card-text z"><b>41.35 PLN</b></p>
+                  </div>
+                </div>
+                </a>
+              </div>
+
+            <div class="col col-lg-2">
+              <a href="404.html">
+                <div class="card card-inverse">
+                    <img class="card-img-top" src="ps.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title h">PlayStation Network Gift Card 10 USD PSN UNITED STATES</h6>
+                        <br>
+                        <p class="card-text p">Od</p>
+                        <p class="card-text z"><b>38.62 PLN</b></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+       <div class="col col-lg-2">
+            <br><br><h2 class="c">Miejsce</h2><br><br>
+            <h2 class="c">na</h2><br><br>
+            <h2 class="c">twoją</h2><br><br>
+            <h2 class="c">reklamę</h2><br><br>
+       </div>
+     </div>
+<!--##############################################-->
+  <div class="row">
+    <div class="col">
+
+    </div>
+    <div class="col-8">
+        <h3><a href="404.html"  class="n">Ostatnio dodane gry  ></a></h3>
+    </div>
+    <div class="col">
+
+    </div>
+  </div>
+     <div class="row">
+        <div class="col col-lg-2">
+             <br><br><h2 class="c">Miejsce</h2><br><br>
+             <h2 class="c">na</h2><br><br>
+             <h2 class="c">twoją</h2><br><br>
+             <h2 class="c">reklamę</h2><br><br>
+        </div>
+
+         <div class="col col-lg-2">
+          <a href="404.html">
+           <div class="card card-inverse">
+               <img class="card-img-top" src="metro.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h6 class="card-title h ">Metro Exodus Steam Key GLOBAL</h6>
+                 <br><br>
+                 <p class="card-text p">Od</p>
+                 <p class="card-text z"><b>248.00 PLN</b></p>
+               </div>
+             </div>
+           </a>
+         </div>
+          <div class="col col-lg-2">
+           <a href="404.html">
+             <div class="card card-inverse">
+                 <img class="card-img-top" src="bf.jpg" alt="Card image cap">
+                 <div class="card-body">
+                     <h6 class="card-title h">Battlefield V Origin Key GLOBAL</h6>
+                     <br><br>
+                     <p class="card-text p">Od</p>
+                     <p class="card-text z"><b>209.51 PLN</b></p>
+                 </div>
+               </div>
+               </a>
+             </div>
+               <div class="col col-lg-2">
+               <a href="404.html">
+               <div class="card card-inverse">
+                   <img class="card-img-top" src="cod.jpg" alt="Card image cap">
+                   <div class="card-body">
+                       <h6 class="card-title h">Call of Duty: Black Ops IIII Battle.net Key EUROPE</h6>
+                       <br>
+                       <p class="card-text p">Od</p>
+                       <p class="card-text z"><b>205.23 PLN</b></p>
+                   </div>
+                 </div>
+                 </a>
+              </div>
+
+              <div class="col col-lg-2">
+                 <a href="404.html">
+                 <div class="card card-inverse">
+                     <img class="card-img-top" src="twd.jpg" alt="Card image cap">
+                     <div class="card-body card-block">
+                         <h6 class="card-title h">The Walking Dead: The Final Season Steam Gift GLOBAL</h6>
+                         <br>
+                         <p class="card-text p">Od</p>
+                         <p class="card-text z"><b>74.80 PLN</b></p>
+                     </div>
+                   </div>
+                 </a>
+                </div>
+
+        <div class="col col-lg-2">
+             <br><br><h2 class="c">Miejsce</h2><br><br>
+             <h2 class="c">na</h2><br><br>
+             <h2 class="c">twoją</h2><br><br>
+             <h2 class="c">reklamę</h2><br><br>
+        </div>
+</div>
+
+
+<footer class="page-footer blue pt-4 mt-4 nav-one">
+
+
+  <div class="container-fluid text-center text-lg-left">
+
+
+    <div class="row">
+
+
+      <div class="col mt-1">
+
+
+        <h5 class="text-uppercase med">Dane kontaktowe</h5>
+        <ul class="list-unstyled med2">
+          <li><b class="z">Adres:</b>  Aleja Katowicka 62, 05-830 Nadarzyn</li>
+          <li><b class="z">Mail:</b>  jpgames@gmail.com</li>
+          <li><b class="z">Telefon:</b>  654 987 321</li>
+          <li><b class="z">Fax:</b>   + 01 234 567 891</li>
+        </ul>
+
+      </div>
+
+
+      <hr class="clearfix w-100 d-lg-none pb-3">
+
+      <div class="col mb-3 med">
+
+        <h5 class="text-uppercase">Mapa witryny</h5>
+
+           <h2><a href="mapaw.html"><img src="map.svg" class="mapa" title="Mapa witryny"></a></h2>
+
+      </div>
+
+
+
+      <div class="col mb-3 med">
+
+       <h5 class="text-uppercase">Media społecznościowe </h5>
+
+          <h3 class="med2">
+            <a href="https://www.facebook.com" class="fb-ic mr-5"><i class="fa fa-lg fa-facebook ff"> </i></a>
+
+            <a href="https://twitter.com/?lang=pl" class="tw-ic mr-5"><i class="fa fa-lg fa-twitter ft"> </i></a>
+
+            <a href="https://plus.google.com/discover" class="gplus-ic mr-5"><i class="fa fa-lg fa-google-plus fgp"> </i></a>
+         </h3>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="col footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="index.html" class="za">JPGames.pl</a>
+  </div>
+
+</footer>
+
+</body>
+</html>

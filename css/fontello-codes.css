@@ -1,0 +1,8 @@
+
+.icon-search:before { content: '\e800'; } /* '' */
+.icon-basket:before { content: '\e801'; } /* '' */
+.icon-user:before { content: '\e802'; } /* '' */
+.icon-vcard:before { content: '\e803'; } /* '' */
+.icon-globe:before { content: '\e804'; } /* '' */
+.icon-wallet:before { content: '\e805'; } /* '' */
+.icon-wpforms:before { content: '\f298'; } /* '' */
